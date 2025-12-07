@@ -1,0 +1,13 @@
+/*Katie Greenwood, 12.7.25, styles*/
+body {font-family: Georgia, serif; background-color: #FDEFE4; color: #510219; text-align: left; padding: 10px; margin: auto;}
+h2 {text-align: center;}
+footer {text-align: center;}
+header, nav {text-align: center; padding: 5px;}
+nav, h2 {border: double #F1AA95;}
+nav a {text-decoration: none;}
+nav a:hover {color: #F8BC22;}
+footer a {text-decoration: none;}
+footer a:hover {color: #F8BC22;}
+img {display: block; margin-left: auto; margin-right: auto;}
+#sub {text-align: center;}
+.images {width: 30%; height: auto;}

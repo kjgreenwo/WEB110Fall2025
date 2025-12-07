@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Katie Greenwood, 12.7.25, final form page-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Clay Questionnaire</title>
+		<link rel="stylesheet" href="styles.css" type="text/css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<a href="final.html">Home</a> &nbsp; &nbsp;
+				<a href="glue.html">The Glue Page</a> &nbsp; &nbsp;
+				<a href="form.html">Questionnaire</a> &nbsp; &nbsp;
+				<a href="sources.html">Sources</a> &nbsp; &nbsp;
+			</ul>
+		</nav>
+		<h2 id="formtop">Final Questionnaire</h2>
+		<h3>Finally, please fill out the questions below in regards to what you learned, and how you'll use this information! There are a few correct answers, but you'll just have to look in your heart to know if they're correct or not.</h3>
+		<form name="clayQuestions" method="post" id="clayQs" action="totallyExists.php">
+			<label for="name">What is Your Name?:</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name">
+		<br><br>
+			<label>When Did I Want My Sculptures to be Finished?:</label>
+			<input type="date">
+		<br><br>
+			<label>What Can You Use to Seal Clay?:</label><br>
+			<input type="checkbox" id="sealant1" name="sealants" value="modPodge">
+			<label for="sealant1">Mod Podge</label><br>
+			<input type="checkbox" id="sealant2" name="sealants" value="hotGlue">
+			<label for="sealant2">Hot Glue</label><br>
+			<input type="checkbox" id="sealants3" name="sealants" value="resin">
+			<label for="sealant3">Resin</label>
+		<br><br>
+			<label>What is the Sturdiest Base for Air-Dry Clay?:</label><br>
+			<input type="radio" id="moreClay" name="base" value="moreClay">
+			<label for="moreClay">More Clay</label><br>
+			<input type="radio" id="hotGlueSkele" name="base" value="hotGlueSkele">
+			<label for="hotGlueSkele">Hot Glue Skeleton</label><br>
+			<input type="radio" id="armature" name="base" value="armature">
+			<label for="armature">Armature</label>
+		<br><br>
+			<label for="clayYN">Do You Plan to Make a Clay Sculpture Now?:</label>
+			<select id="clayYN" name="clayYN">
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+				<option value="maybe">Maybe...</option>
+			</select>
+		<br><br>
+			<label for="questions">Any Questions? I won't answer them, but they're good to get out:</label><br>
+			<textarea id="questions" name="questions" rows="4" placeholder="Write your questions here..."></textarea>
+		<br><br>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</form>
+		<p>Additional Questions? <a href="mailto:students.kgreenw2@jccc.edu">Email Me!</a>
+	</body>
+	<footer>
+		<a href="#formtop">Back to Top</a>
+	</footer>
+</html>
